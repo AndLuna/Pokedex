@@ -1,0 +1,382 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+    background-color: #ebe2e2;
+    width: 96%;
+    max-width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+    
+}
+
+#pagbranca {
+    width: 700px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    margin-top: -40px;
+    
+}
+
+#header1 {
+    position: relative;
+    height: 48px;
+    width: 1484px;
+    background-color: white;
+    border: 2px solid #ebe2e2;
+    right: 500px;
+    height: 45px;
+}
+
+#logo {
+    position: absolute;
+    left: 438px;
+    margin-top: -41px;
+
+}
+
+#header2 {
+    position: relative;
+
+    height: 80px;
+    right: 500px;
+    width: 1487px;
+    background-color: white;
+    margin-bottom: -10px;
+
+}
+
+.menuList {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-left: 50px;
+    position: relative;
+    bottom: 40px;
+    right: 70px;
+}
+
+#seach {
+    position: absolute;
+    height: 136px;
+    width: 1484px;
+    background-color: #313131;
+    top: 60px;
+    right: -288px;
+
+}
+
+#text {
+    position: relative;
+    background-color: #4DAD5B;
+    color: white;
+    width: 320px;
+    padding: 15px;
+    border: 1px solid #4DAD5B;
+    border-radius: 2%;
+    left: 340px;
+    top: 62px;
+}
+
+.login__label {
+    /* LOGIN LABEL É A BARRINHA ///background-color: red;  caso eu quisesse por um background na label de loguin*/
+    display: black;
+    margin-bottom: 20px;
+    width: 40px;
+    margin-top: -270px;
+    position: relative;
+    top: 100px;
+}
+
+.input {
+    /* input é as frases na barrinha / como se fosse uma subclasse de login label */
+    width: 30%;
+    /*largura da barrinha de nome de usuario */
+    border: 2px solid white;
+    /* mechendo na borda do input pra tirar o movimento que empurra a borda */
+    font-weight: 600;
+    /* deixa a letra mais escura*/
+    position: relative;
+    top: 30px;
+    right: 150px
+}
+
+.login__label span {
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin: 20px;
+    cursor: text;
+    position: relative;
+    color: white;
+    right: 23px;
+}
+
+
+.bulba, .char{
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+  top: 75px;
+  margin-bottom: 80px;
+}
+#b1, #b2, #b3, #c1, #c2, #c3{
+  background-color: #EBE2E2;
+  width: 220px;
+  margin: 10px 15px 10px 10px;
+  border-radius: 5%;
+}
+
+
+
+.namebulb,
+.namechar {
+
+  position: relative;
+  display: flex;
+  justify-content:center;
+  bottom: 280px;
+  right: 80px;
+  margin-bottom: 280px;
+  gap: 20%;
+  
+  
+
+}
+
+/* .bulba,
+.char {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-right: 100px;
+    top: 300px;
+    position: relative;
+    left: 30px;
+    gap: 10px;
+}
+
+#bulb1,
+#bulb2,
+#bulb3 {
+    color: white;
+    padding: 0px 0px 0px 14px;
+    background-color: #ebe2e2;
+    width: 45%;
+    border-radius: 12.5px;
+    height: 200px;
+    margin: -1px;
+    right: 60px;
+    position: relative;
+    bottom: 170px;
+}
+
+#c1,
+#c2,
+#c3 {
+    color: white;
+    padding: 0px 0px 0px 14px;
+    background-color: #ebe2e2;
+    width: 45%;
+    border-radius: 12.5px;
+    height: 200px;
+    margin: -1px;
+    right: 60px;
+    position: relative;
+    margin-top: 100px;
+    bottom: 170px;
+
+} */
+
+/* 
+#pokedex {
+    font-size: 22px;
+    color: #919191;
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+}
+
+
+
+.idbulb,
+.idchar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    right: 110px;
+    width: 770px;
+    gap: 24.0%;
+    position: relative;
+    bottom: 188px;
+
+}
+
+.namechar,
+.idchar {
+    position: relative;
+    top: 85px;
+}
+
+.namechar {
+    position: relative;
+    gap: 17%;
+}
+
+#b1{
+    border-bottom: 6px solid #919191;
+
+}
+#b2{    border-bottom: 6px solid #E3350D}
+#b3{    border-bottom:  6px solid #EE6B2F}
+#b4{    border-bottom:  6px solid #E6BC2F}
+#b5{    border-bottom: 6px solid #4DAD5B}
+#b6{    border-bottom: 6px solid #30A7D7}
+#b7{    border-bottom: 6px solid #1B53BA}
+
+#b1, #b2{
+    margin: 0px;
+}
+
+.type{
+    display: flex;
+    position: absolute;
+    
+} */

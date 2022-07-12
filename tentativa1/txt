@@ -1,0 +1,67 @@
+    <header>
+        <div id="bloco1"> 
+            <img id="logo" src="./images/logo.png" alt="logo">
+        </div>
+        <div id="bloco2"></div>
+        <div id="menu">
+            <ul class="menuList">
+                <li>Home</li>
+                <li>Pokédex</li>
+                <li>Video Games</li>
+                <li> Trading Card Game</li>
+                <li> Pokemon Tv</li>
+                <li> Pokemon Events</li>
+                <li> News </li>
+            </ul>
+        </div>
+    </header>
+ 
+ 
+    <div id="bloco"></div>
+    <section class="pk">
+        <div class="bulba">
+            <div id="bulb1">
+                <img height="300" src="./images/pokemon1.png" alt="bulba">
+            </div>
+            <div id="bulb2">
+                <img  height="300" src="./images/pokemon2.png" alt="ivy">
+            </div>
+            <div id="bulb3">
+                <img  height="300"src="./images/pokemon3.png" alt="venus">
+            </div>
+        </div> 
+        <div class="char">
+            <div id="c1">
+                <img  height="300" src="./images/pokemon4.png" alt="charmander">
+
+            </div>
+            <div id="c2">
+                <img  height="300" src="./images/pokemon5.png" alt="charmilion">
+
+            </div>
+            <div id="c3">
+                <img  height="300" src="./images/pokemon6.png" alt="charizard">
+
+            </div>
+        </div>
+    </section>
+<section id="names">
+    <div class="namebulb">
+        <div> <h3> Bulbasaur </h3></div>
+        <div><h3> Ivysaur </h3></div>
+        <div><h3> Venusaur </h3></div>
+    </div>
+    <div class="idbulb">
+        <div> <h3> #001 </h3></div>
+        <div><h3> #002 </h3></div>
+        <div><h3> #003 </h3></div>
+    </div>
+    <div class="idchar">
+        <div> </div>
+        <div> </div>
+        <div> </div>
+    </div>
+</section>
+
+</main>
+</body>
